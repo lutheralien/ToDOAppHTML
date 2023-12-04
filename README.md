@@ -10,7 +10,8 @@ A simple and clean Todo List app designed using HTML and CSS. This app allows us
 
 ## Demo
 
-Include a screenshot or GIF of your Todo List app here.
+![image](https://github.com/lutheralien/ToDOAppHTML/assets/102399984/514fae14-5ab2-4517-b612-d3d922cfe187)
+
 
 ## Getting Started
 
