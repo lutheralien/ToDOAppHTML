@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main-container {
+    background-color: rgb(237, 233, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(11, 11, 66);
+    height: 100%;
+    width: 40%;
+}
+
+.head {
+height: 50%;
+background-color:  rgb(11, 11, 66);
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+justify-content: center;
+
+}
+.foot {
+    height: 50%;
+    background-color:  rgb(11, 11, 66);
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+flex-direction: column;
+margin-top: 10px;
+justify-content: space-between;
+}
+
+.box1 {
+    height: 60px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.box1 h3{
+    position: relative;
+    top: 0;
+    left: -49px;
+}
+.box1 h4 {
+    position: relative;
+    top: 0;
+    right: -43px;
+}
+
+.box2 {
+    height: 60px;
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+.box2 .icon-container {
+    position: relative;
+    right: 70px;
+}
+.box3 {
+    height: 60px;
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.box3 .icon-container {
+    position: relative;
+    right: 70px;
+}
+
+.box4 {
+    height: 60px;
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+.box4 .icon-container {
+    position: relative;
+    right: 105px;
+}
+.to-do-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.to-do-content h3 {
+    margin-left: 50px;
+}
+.to-do-content h4 {
+    margin-right: 50px;
+    font-size: 13px;
+}
+
+.to-do-content h4 i {
+    margin-left: 10px;
+}
+
+.box-f1 {
+    height: 60px;
+    background-color:  rgb(11, 11, 66);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.box-f2 {
+    height: 60px;
+    background-color:  rgb(22, 22, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.box-f2 p {
+    position: relative;
+    right: 80px;
+}
+.box-f2::after {
+    content: "Missing";
+    font-size: 12px;
+    color: #fff;
+    margin-left: 5px; 
+    position: relative;
+    bottom: 29px;
+    left: 80px;
+    background-color: red;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+.box-f3 p {
+    position: relative;
+    right: 65px;
+}
+.box-f3 {
+    height: 60px;
+    background-color: rgb(22, 22, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.box-f3::after {
+    content: "Success";
+    font-size: 12px;
+    color: #fff;
+    margin-left: 5px; 
+    position: relative;
+    bottom: 29px;
+    left: 70px;
+    background-color: green;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+
+.box-f3::after {
+    content: "Suceess";
+    font-size: 12px;
+    color: #fff;
+    margin-left: 5px; 
+}
+
+.box-f4 {
+    height: 60px;
+    background-color: rgb(34, 34, 121);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.box-f4 {
+    display: flex;
+    justify-content: space-around;
+}
